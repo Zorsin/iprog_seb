@@ -1,0 +1,40 @@
+Aufgabe 4) 7.11.16:
+
+1.Erweitern Sie die IO-Klasse so, dass alle elementaren Zahl-Datentypen und auch BigInteger und BigDecimal(mit Prompt) eingelesen
+  werden können.
+
+2.Erweitern Sie die Klasse Person so, dass das Geburtsjahr(int) sowie die Koerpergroessein cm (float) nun ebenfalls mit modelliert werden.
+  Die Methode toString zum Ausliefern einer textuellen Personenbeschreibung soll nun (neben den übrigen Daten) auch
+      –das Alter der Person in Jahren liefern und
+      –einen Hinweis, ob die Person klein, mittel oder gross ist. Dabei soll der Bereich für „mittel“ zwischen 155 cm und 180 cm liegen.
+  Jede Person soll sich selbst bei der Nachricht compare(..) mit einer anderen Person, die als Parameter
+  der Methode übergeben wird, vergleichen. Dabei wird sowohl der Alters- als auch der Groessenunterschied
+  auf den Bildschirm ausgegeben.
+  Die main-Methode soll einen Test für die Klasse enthalten.
+  Hinweis: Das aktuelle Jahr bekommt man durch den Ausdruck newGregorianCalendar().get(Calendar.YEAR)und die dabei verwendeten Klassen befinden sich im Packetjava.util
+
+3.Schreiben Sie ein Programm Kgv, das zwei beliebig grosse Zahlen x und y kommentiert einliest und anschliessend sowohl das
+  kleinste gemeinsame Vielfache(kgV) von x und y als auch den Rest bei der Division von x durch y korrekt berechnet und kommentiert
+  ausgibt. Hinweis: kgV(x,y) = x*y/ggT(x,y)
+
+4.Schreiben Sie ein Programm H_function, das zwei ganze Zahlen x und y (int) kommentiert einliest (mit x < y) und dann Folgendes berechnet:
+  h(x,y) = x, wenn x==y und h(x,y) = kgV(h(x,y-1),y)/ggT(x,y). Beispiel: h(55,122) = 38235522093049138380540441530251214151865061383104.
+
+5.Schreiben Sie ein Programm Pisquare, das eine beliebige positive ganze Zahl N (long) einliest. Anschliessend soll der folgende 
+  Wert (double) 6 * (1/(1*1) + 1/(2*2) + 1/(3*3) + … + 1/(N*N))berechnet und ausgegeben werden.
+
+6.Schreiben Sie ein Programm Gleiter, das Sterne in Form eines Gleiters (s.u.) ausgibt (auf den Bildschirm/in die Console).
+  Der Anwender gibt nach Aufforderung die Maximalzahln für die Sterne in der Mittelachse ein und das Programm gibt 
+  Zeilen mit Sternen für diesen Gleiter aus. Die Beispiele unten sind fuer n = 5 bis n = 1:
+  
+      *               *            *          *       *
+     ***             ***          ***        ***     * *
+    *****           *****        *****      ** **
+   *******         *******      *** ***     *   *
+  *********       **** ****     **   **
+ ***** *****      ***   ***     *     *
+ ****   ****      **     **
+ ***     ***      *       *
+ **       **
+ *         *
+ 
