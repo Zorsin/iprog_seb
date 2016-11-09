@@ -1,0 +1,19 @@
+Aufgaben 3)  31.10.16:
+
+1.Uebersetzen Sie die Klasse InteractiveIO und benutzen Sie sie in den weiteren Aufgaben, wenn noetig.
+
+2.Definieren Sie eine Klasse Person, die es Ihnen erlaubt, Personen-Objekte zu erzeugen. Beim Erzeugen eines Personen-Objektes
+  (innerhalb des Konstruktorsalso) sollen interaktiv (vom Benutzer) der Name, der Beruf, eine Lieblingsfarbe und ein Lieblingstier
+  der Person ermittelt und in dem Objektgespeichert werden. Weiterhin soll es eine Methode toString() geben, welche als Return-Wert alle
+  relevanten Informationen ueber eine Person als einen String herausgibt. Entwerfen, implementieren und testen Sie die Klasse.
+  (Erzeugen Sie also erst mehrere Personen-Objekte und geben Sie anschliessend deren Daten auf den Bildschirm aus.)
+  
+3.Schreiben Sie ein Programm Ggt, welches den groessten gemeinsamen Teiler (ggT) zweier eingelesenerpositiver Zahlen x und
+  y bestimmt und kommentiert ausgibt. Dies soll so oft wiederholt werden, bis eine leere Eingabe erfolgt.Hinweis:
+  Der ggT von x und y ist gleich y, wenn der Rest r der ganzzahligen Division von x durch y gleich 0 ist. Andernfalls ist
+  der ggT gleich dem ggT von y und eben diesem Rest r. (Rekursive Loesung)
+  
+4.Schreiben Sie ein Programm PowerTower, das Folgendes leistet: Es werden eine reelle Zahl (double) und eine ganze Zahlen(int)
+  kommentiert (also mit Prompt) eingelesen, und dann wird der PowerTower-Funktionswert von x und n ausgegeben:
+  Berechnen Sie z.B. f (0.25, 225) oder f (1.4142, 144) oder f (0.3333, 300). 
+  Hinweis: Es gilt f (x, 0) = 1.0 und f (x, n) = xf(x,n-1), wenn n>0. Siehe auch: Math.pow
