@@ -1,0 +1,22 @@
+Aufgaben 2) 24.10.2016:
+
+1.Schreiben Sie ein Programm ShiftAll, das einen Text über die Tastatur einliest und dann immer wieder
+  zyklisch nach rechts verschoben auf den Bildschirm ausgibt, …, bis der anfangs eingegebene Text wieder erscheint.
+  
+2.Schreiben Sie ein Java-ProgrammJanus, das seinen eigenen Programmtext auf den Bildschirm ausgibt.
+
+3.Schreiben Sie ein Java-ProgrammFileMirror, das nach zwei Namen von Textdateien fragt und die erste Datei in die zweite Datei kopiert,
+  wobei aber jede einzelne Zeile gespiegelt (invertiert) geschrieben wird. Machen Sie mitFileMirroreine Spiegelkopie der 
+  DateiFileMirror.java
+  
+4.Schreiben Sie ein Programm PalindromTest, das vom Benutzer eine beliebige Textzeile einliest und dann ausgibt, ob dieser Text 
+  ein Palindrom ist oder nicht. (Ein Palindrom ist mit seinem invertiertenText identisch.)
+  
+5.Schreiben Sie ein Java-Programm PalindromGenerator, das vom Benutzer zwei Texte einliest und daraus fünf verschiedene Palindrome macht,
+  die jeweilsbeide Texte enthalten. Die so erzeugten Palindrome sollen sowohl auf den Bildschirm als auch in die Datei "palindrom.txt"
+  geschrieben werden.
+  
+6.Schreiben Sie ein Programm Filter, das den Benutzer erst nach der URL einer Text-Quelle im Internet und dann nach einem Text-String
+  (dem Muster) fragt, beide Informationen einliest und dann genau nur diejenigen Zeilen der Quelle auf den Bildschirm ausgibt, in denen
+  das Muster (unabhängig von Groß-Kleinschreibung) enthalten ist. Achten Sie auf mögliche Fehler und beseitigen Sie diese! 
+  (Testen Sie mit: https://www.whitehouse.gov/ und michelle)
