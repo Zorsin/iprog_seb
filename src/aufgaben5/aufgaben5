@@ -1,0 +1,35 @@
+Aufgaben 5) 14.11.16: 
+
+Es sollen bei diesen Aufgaben keine speziellen Bibliotheksfunktionen verwendet werden.
+
+1. Schreiben Sie ein Programm Sinus, das die sin-Funktion für einen eingelesenen x-Wert entsprechend dieser Summe approximiert und
+	ausgibt:
+	(Der Wert für n soll automatisch und ausreichend gross gewaehlt werden.)
+	
+2. Schreiben Sie ein Programm SortLong, das 3 Zahlen (long) einliest und in aufsteigender Reihenfolge wieder ausgibt, die kleinste Zahl zuerst,
+	die größte zuletzt. – Koennen Sie das Programm auch so veraendern, dass vier Zahlen korrekt sortiert werden?
+
+3. Schreiben Sie ein Programm WordLcm, das mehrere Zahlwoerter (also Strings) - eins, zwei, drei, vier, ..., dreiundzwanzig, sowie hundert - lesen
+	und nach leerer Eingabe ihr kgV korrekt als Zahl ausgeben kann.
+	
+4. Schreiben Sie ein Programm FifthRoot, das eine reelle Zahl (double) x kommentiert einliest und dann die fünfte Wurzel aus x berechnet und ausgibt.
+	Bsp.: Für x = -131 ist die fünfte Wurzel etwa -2.6512718404073462 .
+
+5. Schreiben Sie ein Programm BorderRect, das drei nichtnegative ganze Zahlen n,m und d im Bereich 1 … 23 einliest und dann ein Sternen-Rechteck aus n Zeilen und
+	m Spalten umgeben von einem freien Rahmen und einem zweiten Rahmen aus Sternen der Dicke jeweils d auf den Bildschirm ausgibt. (n, m, d dürfen auch = 0 sein.)
+	Bsp.: Für n=3, m=4 und d=2 sieht man etwa:
+	
+	************
+	************
+	**        **
+	**        **
+	**  ****  **
+	**  ****  **
+	**  ****  **
+	**        **
+	**        **
+	************
+	************
+	
+6. Schreiben Sie ein Programm PrimeTest, das eine ganze Zahl m (long) kommentiert einliest und dann ausgibt, ob es sich dabei um eine Primzahl handelt
+	oder nicht. 
