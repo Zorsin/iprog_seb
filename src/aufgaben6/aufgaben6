@@ -1,0 +1,41 @@
+Aufgaben 6 21.11.16:
+
+1. Schreiben Sie ein Java-Programm TrhekegmuLister, das beliebig viele Zeilen von der Tastatur einliest, solange, bis das Wort „Guneg“ eingegeben wird,
+	 oder das Ende der Eingabe (^Z) erreicht ist (Abfrage auch auf null). Anschließend sollen alle gelesenen Zeilen invertiert und in umgekehrter Reihenfolgeauf
+	  den Bildschirm ausgegeben werden. Testen Sie das Programm, indem Sie es auf sich selbstdurch die Eingabeumlenkung anwenden:
+	  javaTrhekegmuLister< TrhekegmuLister.java
+	  
+2. Definieren Sie eine Klasse Matrix für m x n-Matrizen von reellen Zahlen (double) und testen Sie sie:
+	1.Der Konstruktor Matrix (int m, int n) soll ein zweidimensionales m x nMatrix-Objekt (mit m Zeilen mit Indices (Nummern) von 1 bis m, und n Spalten 
+		mit Indices von 1 bis n) mit Einträgen 0.0 initialisieren.
+	2.Mit toString() soll jede Matrix eine String-Darstellung von sich selbst liefern (als Returnwert zur späteren Ausgabe).
+	3.Mit setEntry(int i, int j, double x) soll der Eintrag an Position(i,j) auf den Wert x gesetzt werden.
+	4.Mit getEntry(int i, int j) soll der Eintrag an Position (i,j) als Ergebnis geliefert werden.
+	5.Mit add(Matrix mat)soll eine Matrix die Summe von sich selbst und dem Argument mat als Return-Wert liefern, sofern das geht.
+	  (Eine m x n-Matrixkann zu einer m x n-Matrix addiert werden.)
+	6.Mit multiply(Matrix mat) soll eine Matrix das Produkt von sich selbst und dem Argument mat als Return-Wert liefern, sofern das geht. 
+	 (Eine m x k-Matrix kann mit einer k x n-Matrix multipliziert werden.)
+	 
+3. Testen Sie in der main-Methode Ihre Matrix-Klasse, indem Sie zuerst die Matrix definieren. Anschliessend sollen die ersten 20 Potenzen von M,
+	 also M1=M, M2=MxM, M3=MxMxM, ..., M20 jeweils berechnet und ausgegeben werden.
+	 	0 1  0 0
+	 	0 0  1 0
+	 M= 0 0  0 1
+	 	1 1 -1 2
+	 	
+4.Schreiben Sie ein Programm Snail, das mit einer ganzen Zahl n zwischen 0 und 75 als Aufrufparameter gestartet werden kann und Ihren Namen wiederholt und
+	gewunden wie bei einer Schnecke in einer Matrix der Grösse n×n wie in den folgenden Beispielen für n=3, n=5, n=7und n=9 ausgibt:
+	
+	Mona_Lisa
+		    _
+	Mona_Li M		Mona_Li
+	_     s o			  s
+	a isa a n		na_Li a		Mona_
+	s L   _ a		o   s _			L
+	i _anoM _		M M_a M		_Li i		Mon
+	L       L       _     o     a   s         a
+	_anoM_asi		asiL_an		noM_a		iL_
+	
+	    
+	
+	
