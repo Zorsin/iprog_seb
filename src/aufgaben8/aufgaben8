@@ -1,0 +1,21 @@
+Aufgaben 8) vom 12.12.16:
+
+Schreiben Sie unter Verwendung von anonymen Klassenein interaktives
+1. Programm MathPlotter, das Folgendes leistet:
+	1.Der Benutzer wird aufgefordert, den Namen einer der (in der Klasse Math vorhandenen) mathematischen Funktionen sin, cos, exp, log, sqrt, tan oder aber square,
+		cube,quad und quint fuer die Berechnung von 2., 3., 4. und 5. Potenzen einzugeben.
+	2.Wurde eine Funktion eingegeben, sollen Zahlwerte für Beginn, Schrittweite und Ende erfragt und eingelesen und anschliessend die Funktion geplottet (ausgegeben)
+		 werden.
+	3.Danach kann gleich wieder die naechste Funktion geplottet werden (Fortsetzung also bei Schritt 1). Nur wenn statt des Funktionsnamens stop eingegeben wurde,
+		 soll das Programm enden.
+		 
+2. Schreiben Sie ein eininteraktives Programm FiBuzz, das Folgendes leistet:
+	1.Der Benutzer wird aufgefordert, eine positive Zahl n(Typ int) einzugeben.
+	2.Das Programm gibt dann alle Zahlen von 1 bis n hintereinander auf den Bildschirm aus, doch bei Vielfachen von 3 wird statt der Zahl Fizz und bei Vielfachen
+	 von 5wird statt der Zahl Buzz ausgegeben. Nur bei Zahlen, die sowohl Vielfaches von 3 als auch von 5 sind, wird statt der Zahl FiBuzz ausgegeben.
+	 (Beginn einer Ausgabe ist dann etwa: 1 2 Fizz4 Buzz Fizz7 8 FizzBuzz 11 Fizz13 14 FiBuzz)
+	(Diese Aufgabe wurde als Auswahltest für Bewerber verwendet, um ihre Programmierkenntnisse abzuprüfen.)
+	
+3. Schreiben Sie eine neue Version Ihrer alten KlassePerson die folgende Interfaces implementiert: Comparable<Person> ,Cloneable, SimpleTreeNode
+	Der Vergleich sei über den Namen (alphabetisch) definiert. Testen und demonstrieren Sie in der main-Methode alle neuen Funktionen der Klasse.
+ 	(Ein Array von Personen kann z.B. sortiert werden, Personen lassen sich klonen und zu einem Stammbaum zusammenfügen.)

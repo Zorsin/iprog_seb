@@ -1,0 +1,23 @@
+Aufgaben 7) vom 5.12.16:
+
+1. Definieren und implementieren Sie als Subklasse von Number die immutable Klasse Rational, die den Datentyp "Rationale Zahl" 
+	(Bruch mit ganzzahligem Zähler und Nenner BigInteger) realisiert. Die Operationen sollen mindestens 
+	Rational add(Rational r)
+	Rational divide(Rational r) 
+	Rational multiply(Rational r) 
+	Rational subtract(Rational r)
+	public String toString() 
+	boolean isInteger() // liefert true -> ganze Zahl
+	umfassen, wobei alle Ergebnisse weitgehend gekuerzt sind. 
+	
+	Schreiben Sie nun ein Programm PrimeFrac, welches Folgendes macht: Es wird zuerst diese Liste L (ein Array) von 14 Rationals definiert und ausgegeben:
+	17/91, 78/85, 19/51, 23/38, 29/33, 77/29, 95/23, 77/19,1/17, 11/13, 13/11, 15/2, 1/7, 55/1
+	
+	Dann wird ein weiterer Bruch b = 2/1( = die ganze Zahl 2) definiert, ausgegeben und dann versuchsweise jeweils mit den Bruechen aus der Liste L 
+	(von ganz links nach rechts) multipliziert, bis dabei eine ganze Zahl z(Nenner = 1) herauskommt. Diese zweite Zahl z wird ebenfalls ausgegeben 
+	und nun b = z gesetzt. Anschliessend wird das Ganze wiederholt mit der neuen Zahl b, wobei mit den Multiplikationen von Bruechen aus L wieder ganz
+	links begonnen wird. Lassen Sie ihr Programm die ersten 1000 so gebildeten ganzen Zahlen und die 36982-te Zahl auf den Bildschirm ausgeben!
+	Es werden also ausgegeben: 2, 15, 825, 725, 1925, … Beantworten Sie mit Ihrer Abgabe unbedingt die folgenden Fragen:
+	Welches ist die 36982-te Zahl?
+	Welches ist die groesste Zahl unter den ersten 36982 Zahlen?
+	An welcher Stelle (1, …, 36982) kommt die groesste Zahl vor?

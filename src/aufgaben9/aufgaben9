@@ -1,0 +1,10 @@
+Aufgaben 9) 19.12.16:
+
+Schreiben Sie ein (textbasiertes) Anwendungsprogramm, welches es einem Benutzer (oder zweien) erlaubt,
+	das bekannte Spiel „Connect6“ auf (quadratischen) Spielbrettern beliebiger Größe (6x6 bis 20x20) zu spielen.
+	Benutzer können abwechselnd Eingaben für die Spielzuege des Schwarz-Spielers und des Weiss-Spielers
+	machen oder aber zur Steuerung des Programms, etwa zum Beenden.
+	– Überlegen Sie sich vor der Implementierung, welche Klassen, Interfaces, Objekte
+		(fuer das Spielbrett, die Dialogkomponente, etc.) benötigt werden und welche Methoden.
+		(Denken Sie auch an mögliche spätere Erweiterungen des Spiels.)
+	– Überlegen Sie, wie ein Benutzer das Programm steuern soll.
