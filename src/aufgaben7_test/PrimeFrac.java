@@ -5,7 +5,6 @@ package aufgaben7_test;
 
 import java.math.BigInteger;
 
-import aufgaben7.Rational;
 
 /**
  * @author Sören Wirries

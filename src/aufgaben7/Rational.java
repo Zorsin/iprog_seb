@@ -9,10 +9,14 @@ import java.math.BigInteger;
  * @author Sören Wirries
  *
  */
-public class Rational extends Number {
+class Rational extends Number {
 	
-	public BigInteger zaehler;
-	public BigInteger nenner;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5768347424615088015L;
+	final public BigInteger zaehler;
+	final public BigInteger nenner;
 	
 	
 	public Rational(BigInteger zaehler, BigInteger nenner){

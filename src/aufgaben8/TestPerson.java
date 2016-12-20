@@ -18,11 +18,20 @@ public class TestPerson {
 		 * 
 		 */
 		Person[] liste = {
-				new Person("Hans", "Hansen", "beruf", "farbe", "tier",  1990, 2.1f),
-				new Person("Peter", "Petersen", "beruf", "farbe", "tier",  1990, 2.1f),
-				new Person("Juergen", "Juegensen", "beruf", "farbe", "tier",  1990, 2.1f),
-				new Person("Olaf", "Olafsen", "beruf", "farbe", "tier",  1990, 2.1f)
+				new Person("Caeser", "Caeser", "beruf", "farbe", "tier",  1990, 2.1f),    	//0
+				new Person("Alpha", "Alpha", "beruf", "farbe", "tier",  1990, 2.1f),		//1
+				new Person("Heinrich", "Heinrich", "beruf", "farbe", "tier",  1990, 2.1f),	//2
+				new Person("Paula", "Paula", "beruf", "farbe", "tier",  1990, 2.1f),		//3
+				new Person("Charlie", "Charlie", "beruf", "farbe", "tier",  1990, 2.1f),	//4
+				new Person("Berta", "Berta", "beruf", "farbe", "tier",  1990, 2.1f),		//5
+				new Person("Zeppelin", "Zeppelin", "beruf", "farbe", "tier",  1990, 2.1f),	//6
+				new Person("Julius", "Julius", "beruf", "farbe", "tier",  1990, 2.1f),		//7
+				new Person("Otto", "Otto", "beruf", "farbe", "tier",  1990, 2.1f),			//8
+				new Person("Anton", "Anton", "beruf", "farbe", "tier",  1990, 2.1f),		//9
+				new Person("Bravo", "Bravo", "beruf", "farbe", "tier",  1990, 2.1f),		//10	
+				
 		};
+		Person start = new Person("Alphabet", "Alphabet", "beruf", "farbe", "tier",  1990, 2.1f);
 		/**
 		 * Testen der Vererbung von Kindeskindern
 		 * Die Die Personen werden untereinander als Kinder hinzugefügt
@@ -30,25 +39,36 @@ public class TestPerson {
 		 * aus der Stammbaum einen anderen Namen haben und nicht 2.
 		 * Wenn 2 den geaenderten Namen haben, hat das Clonen nicht funktioniert
 		 */
-		/*
-		Person p2 = liste[1];
-		p2.addChild(liste[0]);
+		liste[10].addChild(liste[4]);
+		liste[1].addChild(liste[10]);
+		start.addChild(liste[1]);
 		
-		Person p3 = liste[2];
-		p3.addChild(p2);
-		p3.addChild(liste[3]);
-		p3.addChild(p2.clone());
-		p2.nachname = "Cloned";
-		Person.print(p3,"-");
-		*/
+		//liste[5].addChild(liste[0]);
+		//liste[9].addChild(liste[5]);
+		
+		//start.addChild(liste[9]);
+		Person p5 = liste[5];
+		Person p0 = liste[0];
+		Person p9 = liste[9];
+		p5.addChild(p0);
+		p9.addChild(p5);
+		
+		Person cloned = p9.clone();
+		p9.vorname = "cloned Anton";
+        start.addChild(cloned);
+		start.addChild(p9);
+		
+		System.out.println("Ausgabe des Stammbaums:");
+		Person.print(start,"-");
+		
 		/**
 		 * Testen der Sortierung nach Nachname mit BubbleSort
 		 */
-		/*Person[] sorted = (Person[]) bubbleSort(liste);//Sortieren der Personen aus derm Array mit BubbleSort und abspeichern als Personen Array
-		
+		Person[] sorted = (Person[]) bubbleSort(liste);//Sortieren der Personen aus derm Array mit BubbleSort und abspeichern als Personen Array
+		System.out.println("\nAusgabe der sortierten Namen:");
 		for(Person p : sorted){ //Alle Personen sortiert ausgeben
 			System.out.println("Name: "+p.nachname);
-		}*/
+		}
 	}
 	/**
 	 * BubbleSort Methode aus den Vorlesungsfolien

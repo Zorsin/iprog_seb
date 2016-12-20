@@ -34,11 +34,19 @@ public class PrimeFrac {
 		
 		};
 		
+		for(int i = 0; i < L.length; i++){
+			if(i == 13){
+				System.out.println(" "+L[i]);
+			}else{
+				System.out.print(" "+L[i]+",");
+			}
+		}
+		
 		Rational b = new Rational(new BigInteger("2"), new BigInteger("1"));
 		
 		
 		Rational max = b;
-		int stelle = 0;
+		int stelle = 1;
 		
 		for(int i = 1; i < 36983; i++){
 			
@@ -50,7 +58,7 @@ public class PrimeFrac {
 					
 					
 					if(max.zaehler.compareTo(b.zaehler) < 0){
-						max = z;
+						max = b;
 						stelle = i;
 					}
 					
@@ -60,9 +68,8 @@ public class PrimeFrac {
 			}
 		}
 		
-		System.out.println("Groesster Zahl ist: "+max.zaehler + " an der Stelle: "+ stelle);
+		System.out.println("Groesste Zahl ist: "+max.zaehler + " an der Stelle: "+ stelle);
 		
-
 	}
 
 }
